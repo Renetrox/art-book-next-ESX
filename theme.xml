@@ -47,6 +47,30 @@ license:       creative commons CC-BY-NC-SA
    <include>./color-scheme-${colorScheme}.xml</include>
    <include>./sound-set-${soundSet}.xml</include>
 
+   <!-- ES-X dynamic screen overlays: follow frontend settings and real connectivity.
+        Keep them away from Alekfull/Art Book system art and gamelist controls. -->
+   <view name="screen">
+      <text name="clock">
+         <pos>0.978 0.022</pos>
+         <origin>1 0</origin>
+         <fontPath>${bodyFont}</fontPath>
+         <fontSize>0.028</fontSize>
+         <color>${logoTextColor}</color>
+         <outlineColor>101010FF</outlineColor>
+      </text>
+      <image name="network">
+         <pos>0.869 0.024</pos>
+         <origin>1 0</origin>
+         <size>0.028 0.028</size>
+      </image>
+      <image name="bluetooth">
+         <pos>0.831 0.024</pos>
+         <origin>1 0</origin>
+         <size>0.028 0.028</size>
+      </image>
+   </view>
+
+
    <view name="system,basic,detailed,video">
       <helpsystem name="help">
          <pos>1 1</pos>
