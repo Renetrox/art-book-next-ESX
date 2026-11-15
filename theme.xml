@@ -116,6 +116,8 @@ license:       creative commons CC-BY-NC-SA
          <size>0 1</size>
          <color>ffffffcc</color>
          <path>./_inc/images/systems/${system.theme}.png</path>
+         <!-- Generic artwork when a genre/custom collection has no dedicated PNG. -->
+         <default>./_inc/images/systems/custom-collections.png</default>
          <zIndex>1</zIndex>
       </image>
       <image name="background-art-mask" extra="true">
