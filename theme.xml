@@ -57,7 +57,6 @@ license:       creative commons CC-BY-NC-SA
          <fontPath>${bodyFont}</fontPath>
          <fontSize>0.0333333</fontSize>
          <color>${logoTextColor}</color>
-         <outlineColor>101010FF</outlineColor>
       </text>
       <image name="network">
          <pos>0.869 0.044</pos>
